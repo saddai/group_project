@@ -9,10 +9,45 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
+<body style="height:1500px">
 
-<h1>
-  #WellbeingWednesdays
-</h1>
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  </style>
+<div class="header" id="myHeader">
+  <link rel="stylesheet" href="index_style.css">
+
+  <h1>#WellbeingWednesdays</h1>
+</div>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
